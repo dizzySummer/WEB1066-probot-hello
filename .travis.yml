@@ -2,8 +2,8 @@ sudo: required
 services:
   - docker
 env:
-  -NPM_TARGET= test
-  -NPM_TARGET= lint
+  -NPM_TARGET=test
+  -NPM_TARGET=lint
   -NPM_TARGET=coverage
 
 before_install:
